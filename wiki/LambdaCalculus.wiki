@@ -1,0 +1,33 @@
+#summary Lambda Calculus Project
+
+= Introduction =
+
+Lambda Calculus Parser, Interpreter, and Library.
+
+= Details =
+
+Untyped, normal redex, Lambda Calculus.
+
+Provides:
+
+ * zero
+ * one
+ * two
+ * three
+ * four
+ * five
+ * six
+ * seven
+ * eight
+ * nine
+ * inc
+ * plus
+ * times
+ * dec
+ * true
+ * false
+ * fix
+ * ifThenElse
+ * isZero
+ * mult
+ * factorial
