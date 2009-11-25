@@ -111,5 +111,6 @@ isZero = Lambda "n" (App (App (Var "n") (Lambda "x" false)) true)
 mult :: Expr
 mult = Lambda "m" (Lambda "n" (Lambda "f" (App (Var "n") (App (Var "m") (Var "f")))))
 
+factorial :: Expr
 factorial = App fix (Lambda "k" (Lambda "i" (App (App (App ifThenElse (App isZero (Var "i"))) one) (App (App mult (Var "i")) (App (Var "k") (App dec (Var "i")))))))
 
