@@ -1,4 +1,4 @@
-import Data.List
+import List
 import System
 
 -- abstract syntax tree
